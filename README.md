@@ -326,19 +326,18 @@ drwxrwxr-x 15 osboxes osboxes     4096 Jan 17 09:57 mbed-os
 
 ```shell-session
 
-Connecting to /dev/ttyACM0, speed 9600
+nuertey@nuertey-PC-LL850RSB:~$ kermit -c
+Connecting to /dev/ttyACM0, speed 115200
  Escape character: Ctrl-\ (ASCII 28, FS): enabled
 Type the escape character followed by C to get back,
 or followed by ? to see other options.
 ----------------------------------------------------
-[StateMachine_t][process_event] boost::ext::sml::v1_1_5::back::on_entry<boost::ext::sml::v1_1_5::back::_, boost::ext::sml::v1_1_5::back::initial>
-
 
 MooreFSM-MbedOS Application - Beginning... 
 
-Mbed OS version: 6.16.0
+Mbed OS version: 6.17.0
 
-Built: Sep 22 2022, 05:59:35
+Built: Jan 17 2025, 09:59:35
 
 [StateMachine_t][process_event] {anonymous}::buttonPressed
 [StateMachine_t][transition] Off -> On
@@ -367,16 +366,22 @@ Built: Sep 22 2022, 05:59:35
 [StateMachine_t][process_event] {anonymous}::buttonPressed
 [StateMachine_t][transition] Blink -> Off
 [StateMachine_t][action] {anonymous}::do_light_off {anonymous}::buttonPressed
-[StateMachine_t][process_event] {anonymous}::buttonPressed
-[StateMachine_t][transition] Off -> On
-[StateMachine_t][action] {anonymous}::do_light_on {anonymous}::buttonPressed
-[StateMachine_t][process_event] {anonymous}::buttonPressed
-[StateMachine_t][transition] On -> Blink
-[StateMachine_t][action] {anonymous}::do_light_blink {anonymous}::buttonPressed
 
-...
+Communications disconnect (Back at nuertey-PC-LL850RSB)
+----------------------------------------------------
+C-Kermit 9.0.302 OPEN SOURCE:, 20 Aug 2011, for Linux+SSL+KRB5 (64-bit)
+ Copyright (C) 1985, 2011,
+  Trustees of Columbia University in the City of New York.
+Type ? or HELP for help.
+(/home/nuertey/) C-Kermit>
 
 ```
+
+## Video/Pictures Of STM32F767 MCU, the Running Code and LEDs in Action (click on first picture for video link)
+
+[![Watch the video](https://github.com/nuertey/RandomArtifacts/blob/master/20210627_092109.jpg)](https://github.com/nuertey/RandomArtifacts/blob/master/ConcurrentLEDs-Baremetal.mp4)
+
+![alt text](https://github.com/nuertey/RandomArtifacts/blob/master/20210627_092115.jpg?raw=true)
 
 ## License
 MIT License
