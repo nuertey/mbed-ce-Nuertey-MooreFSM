@@ -379,9 +379,9 @@ Type ? or HELP for help.
 
 ## Video/Pictures Of STM32F767 MCU, the Running Code and LEDs in Action (click on first picture for video link)
 
-[![Watch the video](https://github.com/nuertey/RandomArtifacts/blob/master/20210627_092109.jpg)](https://github.com/nuertey/RandomArtifacts/blob/master/ConcurrentLEDs-Baremetal.mp4)
+[![Watch the video](https://github.com/nuertey/RandomArtifacts/blob/master/20250117_110353.jpg)](https://github.com/nuertey/RandomArtifacts/blob/master/MooreFSM-Baremetal.mp4)
 
-![alt text](https://github.com/nuertey/RandomArtifacts/blob/master/20210627_092115.jpg?raw=true)
+![alt text](https://github.com/nuertey/RandomArtifacts/blob/master/20250117_110402.jpg?raw=true)
 
 ## License
 MIT License
